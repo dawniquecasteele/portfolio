@@ -1,0 +1,29 @@
+.main{
+    margin: auto;
+    padding: auto;
+    animation: fade-in 4s ease-out forwards;
+
+}
+
+header{
+    font-family: "Pixelify Sans";
+    font-size: 36px;
+}
+
+
+img{
+    height:30px;
+    margin: 2%;
+    fill: #242424;
+    
+}
+
+@keyframes fade-in {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
