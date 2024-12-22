@@ -1,29 +1,23 @@
 :root {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Funnel Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  /* color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424; */
-  background-image: radial-gradient(#ef8e52, #f1a87c);
+
+  color-scheme: light dark;
+  color: #323232;
+  background-color: #faf8f5;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
-
 a {
   font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
+  text-decoration: none;
 }
- 
-a:hover {
-  color: #535bf2;
-}
+
 
 body {
   margin: 0;
@@ -57,15 +51,18 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #000000;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+
+
+
+.row{
+  display: flex;
+}
+
+.twocolumn{
+  flex: 50%;
+
+}
+
+.fourcolumn{
+  flex: 25%;
 }
