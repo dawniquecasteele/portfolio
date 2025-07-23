@@ -16,7 +16,7 @@ const Footer = () => {
                 <a className={`${"footerLink"} ${"navunderlineanim"}`} href="https://www.artstation.com/dawnstelay" target="_blank" rel="noopener noreferrer">ArtStation↗</a>
                 </div>
                 
-                <div>© design + code dawniqueca steele 2024</div>
+                
         
             </section>
 
